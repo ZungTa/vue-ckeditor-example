@@ -1,0 +1,50 @@
+{
+  "name": "003",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^20.0.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.4.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-adapter-ckfinder": "^19.0.1",
+    "@ckeditor/ckeditor5-basic-styles": "^19.0.1",
+    "@ckeditor/ckeditor5-block-quote": "^19.0.1",
+    "@ckeditor/ckeditor5-build-classic": "^19.0.2",
+    "@ckeditor/ckeditor5-code-block": "^19.0.1",
+    "@ckeditor/ckeditor5-dev-utils": "^20.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^19.0.1",
+    "@ckeditor/ckeditor5-essentials": "^19.0.1",
+    "@ckeditor/ckeditor5-highlight": "^19.0.1",
+    "@ckeditor/ckeditor5-image": "^19.0.1",
+    "@ckeditor/ckeditor5-link": "^19.0.1",
+    "@ckeditor/ckeditor5-paragraph": "^19.1.0",
+    "@ckeditor/ckeditor5-theme-lark": "^19.1.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
+    "raw-loader": "^4.0.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
